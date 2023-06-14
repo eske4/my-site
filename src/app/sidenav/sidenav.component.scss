@@ -93,3 +93,9 @@
       }
     }
 }
+
+@media (max-width: 600px) {
+  .sidenav-link-text {
+    font-size: 4vw; /* Adjust the value as needed */
+  }
+}
