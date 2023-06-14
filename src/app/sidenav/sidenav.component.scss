@@ -54,17 +54,9 @@
     .sidenav-nav {
         list-style: none;
         width: inherit;
-        display: flex;
-        // flex-direction: column;
-        // align-items: flex-start;
+        display: inline-flex;
         align-items: center;
         justify-content: space-between;
-        // position: absolute;
-        // width: calc(100% - 3.65rem);
-        // justify-content: center;
-        // right: 0;
-        // top: 0;
-        // bottom: 200;
         cursor: pointer;
   
       .sidenav-nav-item {
@@ -86,9 +78,10 @@
           .sidenav-link-text {
             color: #B74803;
             transition: all .3s ease;
-            font-size: 24px;
+            font-size: 4vw;
             font-family: "Montserrat", sans-serif;
           }
+          
         }
       }
   
