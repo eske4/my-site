@@ -5,7 +5,7 @@
     z-index: 0;
     position: relative; 
     transition: all .5s ease;
-    padding-top: 6%; /* Adjust the percentage value to move the content further or closer to the top */
+    padding-top: calc(12vh); /* Adjust the percentage value to move the content further or closer to the top */
     padding-left: 5rem;
     color: #008080;
     font-family: "Montserrat", sans-serif;
