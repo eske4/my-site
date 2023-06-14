@@ -4,17 +4,16 @@
     gap: 50px;
     width: 100%;
     justify-content: center;
-    
-
-    .about-items{
-        background-color: #FEECD2;;
-        border-radius: 0.513rem;
-        font-size: 24px;
-
-        .about-text {
-            background-color: none;
-        }
+  
+    .about-items {
+      background-color: #FEECD2;
+      border-radius: 0.513rem;
+      font-size: 24px;
+  
+      .about-text {
+        background-color: transparent;
+        font-size: 18px ;
+      }
     }
-
-    
-}
+  }
+  
