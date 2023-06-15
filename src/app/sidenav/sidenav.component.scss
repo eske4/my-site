@@ -1,101 +1,107 @@
 .sidenav {
-    background-color: #022E51;
-    transition: all .5s ease;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    width: 5rem;
-    height: 8%;
-    box-shadow: 0.063rem 0 1.25rem 0 #8690a3;
-    display: flex;
-    align-content: center;
-    border-radius: 0.613rem;
-  
-    .logo-container {
-      display: flex;
-      align-items: center;
-      padding: 0 0.938rem 0 0.938rem;
-      // width: 100%;
-  
-      .logo {
-        background: #FEECD2;
-        text-align: center;
-        width: 3rem;
-        min-width: 3rem;
-        border-radius: 0.313rem;
-        padding: 0.313rem;
-        font-size: 24px;
-        font-weight: 900;
-        color: #CC6D3D;
-        cursor: pointer;
-        border: none;
-      }
-  
-      .btn-close {
-        margin-left: auto;
-        cursor: pointer;
-        width: 2rem;
-        height: 2rem;
-        border-radius: 50%;
-        background-color: transparent;
-        border: none;
-  
-        .fa-times {
-          color: #FEECD2;
-          font-size: 24px;
-        }
-      }
-    }
-  
-    &.sidenav-collapsed {
-      width: 100vw;
-    }
-  
-    .sidenav-nav {
-        list-style: none;
-        width: inherit;
-        display: inline-flex;
-        align-items: center;
-        justify-content: space-between;
-        cursor: pointer;
-  
-      .sidenav-nav-item {
-        flex-grow: 1;
-        background-color: #FEECD2;
-        border-radius: 0.613rem;
-        margin-right: 0.825rem;
-  
-        .sidenav-nav-link {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 3rem;
-          color: f3f3f3;
-          text-decoration: none;
-          border-radius: 0.625rem;
-          transition: all .3s ease;
-  
-          .sidenav-link-text {
-            color: #B74803;
-            transition: all .3s ease;
-            font-size: 2vw;
-            font-family: "Montserrat", sans-serif;
-          }
-          
-        }
-      }
-  
-      .sidenav-nav-item:hover {
-        .sidenav-nav-link {
-          background-color: #022E51;
-          color: #000;
-        }
-      }
-    }
-}
+  background-color: #022E51;
+  transition: all .5s ease;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 5rem;
+  box-shadow: 0.063rem 0 1.25rem 0 #8690a3;
+  display: flex;
+  border-radius: 0.613rem;
 
-@media (max-width: 600px) {
-  .sidenav-link-text {
-    font-size: 4vw; /* Adjust the value as needed */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    padding: 0 0.938rem;
+
+    .logo {
+      background: #FEECD2;
+      text-align: center;
+      width: 3rem;
+      min-width: 3rem;
+      border-radius: 0.313rem;
+      padding: 0.313rem;
+      font-size: 24px;
+      font-weight: 900;
+      color: #CC6D3D;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-close {
+      margin-left: auto;
+      cursor: pointer;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background-color: transparent;
+      border: none;
+
+      .fa-times {
+        color: #FEECD2;
+        font-size: 24px;
+      }
+    }
+  }
+
+  &.sidenav-collapsed {
+    width: 100%;
+  }
+
+  .sidenav-nav {
+    position: sticky; /* Add sticky positioning */
+    top: 0; /* Stick the navigation items at the top */
+    list-style: none;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    .sidenav-nav-item {
+      flex-grow: 1;
+      background-color: #FEECD2;
+      border-radius: 0.613rem;
+      margin-right: 0.825rem;
+
+      .sidenav-nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        color: #f3f3f3;
+        text-decoration: none;
+        border-radius: 0.625rem;
+        transition: all .3s ease;
+
+        .sidenav-link-text {
+          color: #B74803;
+          transition: all .3s ease;
+          font-size: 24px;
+          font-family: "Montserrat", sans-serif;
+        }
+
+        @media (max-width: 600px) {
+          .sidenav-link-text {
+            font-size: 14px; /* Adjust the value as needed */
+          }
+        }
+
+        @media (max-width: 300px) {
+          .sidenav-link-text {
+            font-size: 8px; /* Adjust the value as needed */
+          }
+        }
+        
+      }
+    }
+
+    .sidenav-nav-item:hover {
+      .sidenav-nav-link {
+        background-color: #022E51;
+        color: #000;
+      }
+    }
   }
 }
+
