@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="29.870392mm"
+   height="35.559998mm"
+   viewBox="0 0 29.870392 35.559998"
+   version="1.1"
+   id="svg5"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2">
+    <rect
+       x="178.48064"
+       y="364.81891"
+       width="480.43842"
+       height="491.66364"
+       id="rect113" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.492959,-112.01886)">
+    <g
+       aria-label="K"
+       transform="scale(0.26458333)"
+       id="text111"
+       style="font-size:192px;white-space:pre;shape-inside:url(#rect113)">
+      <path
+         d="m 204.78447,557.77836 q -8.064,0 -12.48,-4.608 -4.416,-4.8 -6.336,-12.48 -1.92,-7.872 -2.304,-17.28 -0.384,-9.408 -0.384,-18.816 0,-4.608 0,-11.904 0.192,-7.488 0.192,-15.168 0.192,-7.872 0.384,-13.824 0.192,-6.144 0.384,-8.448 0.384,-13.824 5.76,-22.848 5.376,-9.024 15.936,-9.024 12.096,0 16.512,10.56 4.608,10.368 4.608,29.952 0,2.112 0,5.76 3.648,-6.72 8.832,-14.592 5.376,-7.872 11.712,-14.976 6.336,-7.104 13.44,-11.52 7.104,-4.608 14.4,-4.608 9.024,0 14.784,6.912 5.952,6.72 5.952,16.704 0,9.024 -5.376,17.664 -5.184,8.448 -14.4,15.36 -9.216,6.912 -21.504,11.328 7.104,3.264 14.4,7.872 7.296,4.416 13.248,9.984 6.144,5.376 9.792,11.712 3.648,6.336 3.648,13.632 0,8.064 -3.264,13.056 -3.072,4.992 -8.064,7.296 -4.992,2.304 -10.56,2.304 -9.792,0 -18.24,-6.336 -8.448,-6.336 -15.744,-16.512 -7.104,-10.176 -13.248,-21.312 0,8.448 -0.768,16.32 -0.576,7.872 -2.688,14.208 -2.112,6.336 -6.528,9.984 -4.416,3.648 -12.096,3.648 z"
+         style="font-family:'Cherry Bomb One';-inkscape-font-specification:'Cherry Bomb One'"
+         id="path339"
+         inkscape:export-filename="./path339.svg"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </g>
+  </g>
+</svg>
