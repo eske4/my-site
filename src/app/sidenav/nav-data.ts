@@ -5,14 +5,14 @@ export const navbarData = [
       label: 'Home'
     },
     {
-      routeLink: 'About',
-      icon: 'fal fa-user',
-      label: 'About'
-    },
-    {
       routeLink: 'Projects',
       icon: 'fal fa-user',
       label: 'Projects'
+    },
+    {
+      routeLink: 'About',
+      icon: 'fal fa-user',
+      label: 'About'
     },
     {
       routeLink: 'Contact',
