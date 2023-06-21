@@ -1,5 +1,6 @@
 .about-container {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-auto-flow: row;
     gap: 50px;
     width: 100%;
@@ -7,11 +8,16 @@
   
     .about-items {
       background-color: #FEECD2;
+      display: flex;
+      padding: 1em 2em;
+      flex-direction: column;
+      align-items: center;
       border-radius: 0.513rem;
       font-size: 24px;
   
       .about-text {
         background-color: transparent;
+        align-self: flex-start;
         font-size: 18px ;
       }
     }
