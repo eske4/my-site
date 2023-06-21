@@ -4,7 +4,7 @@
     </div>
     <nav class="sidenav-nav" >
         <div class="content" *ngFor="let data of navData">
-            <a class="sidenav-nav-item  sidenav-link-text" [routerLink]="[data.routeLink]" *ngIf="collapsed">
+            <a class="sidenav-nav-item  sidenav-link-text" [routerLink]="[data.routeLink]" *ngIf="collapsed" [routerLinkActive]="'is-active'">
                 {{data.label}}
             </a>
         </div>
