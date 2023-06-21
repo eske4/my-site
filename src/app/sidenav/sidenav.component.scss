@@ -32,6 +32,9 @@
       display: grid;
       place-content: center;
       &:hover{background: #016ec7;}
+      &:visited, &:active{
+        background-color: #034d8a;
+      }
     }
 
     .btn-close {
@@ -44,7 +47,8 @@
       .fa-times {
         color: #ffffff;
         font-size: 24px;
-        &:hover{color: #016ec7;}
+        &:hover{color: #c70101;}
+        
       }
     }
   }
@@ -82,6 +86,9 @@
       color: #fff;
       text-decoration: none;
       box-sizing: content-box;
+      &:visited, &:active{
+        background-color: #034d8a;
+      }
       &:hover {
         background-color: #016ec7;
         color: #000;
