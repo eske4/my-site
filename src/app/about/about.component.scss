@@ -7,19 +7,34 @@
     justify-content: center;
   
     .about-items {
-      background-color: #FEECD2;
+      background-color: hsl(221, 31%, 31%);
+      font-family: 'Bubblegum Sans';
       display: flex;
       padding: 1em 2em;
       flex-direction: column;
+      color: #fff;
       align-items: center;
       border-radius: 0.513rem;
       font-size: 24px;
+
+      .about-image
+      {
+        
+      }
   
       .about-text {
-        background-color: transparent;
         align-self: flex-start;
-        font-size: 18px ;
+        font-size: 16px;
+        font-family: 'Open Sans';
+      }
+
+      
       }
     }
+
+  @media screen and (max-width: 766px)
+  {
+    .about-container{
+      grid-template-columns: 1fr;
+    }
   }
-  

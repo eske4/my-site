@@ -4,15 +4,18 @@
   position: fixed;
   top: 0;
   z-index: 1;
-  width: 5rem;
+  // width: 5rem;
   box-shadow: 0.063rem 0 1.25rem 0 #00507046;
   display: flex;
   border-radius: 0 0.613rem 0.613rem 0.613rem;
+  font-family: 'Bubblegum Sans';
+
+  padding: 1em;
 
   .logo-container {
     display: flex;
     align-items: center;
-    padding: 0 0.938rem;
+    // padding: 0 0.938rem;
 
     .logo {
       background: #034d8a;
@@ -34,14 +37,12 @@
     .btn-close {
       margin-left: auto;
       cursor: pointer;
-      width: 2rem;
-      height: 2rem;
       border-radius: 50%;
       background-color: transparent;
       border: none;
 
       .fa-times {
-        color: #034d8a;
+        color: #ffffff;
         font-size: 24px;
         &:hover{color: #016ec7;}
       }
@@ -51,6 +52,10 @@
   &.sidenav-collapsed {
     width: 100%;
     border-radius: 0 0 0.613rem 0.613rem;
+    .sidenav-nav {
+
+      margin: 0 0.5em;
+    }
   }
 
   .sidenav-nav {
@@ -63,52 +68,67 @@
     justify-content: space-between;
     cursor: pointer;
 
-    .sidenav-nav-item {
+    .sidenav-link-text {
+      text-align: center;
+      transition: all .3s ease;
       flex-grow: 1;
+      font-size: 24px;
+      height: 30px;
+      line-height: 32px;
       background-color: #034d8a;
       border-radius: 0.613rem;
-      margin-right: 0.825rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      padding: 0.313rem;
+      margin: 0 0.5em;
+      color: #fff;
+      text-decoration: none;
+      box-sizing: content-box;
+      &:hover {
+        background-color: #016ec7;
+        color: #000;
+      }
+    }
+  
 
-      .sidenav-nav-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 3rem;
-        color: #f3f3f3;
-        text-decoration: none;
-        border-radius: 0.625rem;
-        transition: all .3s ease;
+      // .sidenav-nav-link {
+      //   display: flex;
+      //   align-items: center;
+      //   justify-content: center;
+      //   height: 3rem;
+      //   color: #f3f3f3;
+      //   text-decoration: none;
+      //   border-radius: 0.625rem;
+      //   
 
-        .sidenav-link-text {
-          color: #ffffff;
-          transition: all .3s ease;
-          font-size: 24px;
-          font-family: "Montserrat", sans-serif;
-        }
+      //   .sidenav-link-text {
+      //     color: #ffffff;
+      //     transition: all .3s ease;
+      //     font-size: 24px;
+      //     margin-right: 0.825em;
+      //     margin-top: 1em;
+      //     margin-bottom: 1em;
+      //   }
 
         @media (max-width: 600px) {
           .sidenav-link-text {
             font-size: 14px; /* Adjust the value as needed */
+            margin: 0 0.3em;
           }
         }
 
         @media (max-width: 300px) {
           .sidenav-link-text {
             font-size: 8px; /* Adjust the value as needed */
+            margin: 0 0.1em;
           }
         }
         
       }
     }
 
-    .sidenav-nav-item:hover {
-      .sidenav-nav-link {
-        background-color: #016ec7;
-        color: #000;
-      }
-    }
-  }
-}
+    // .sidenav-link-text
+//   }
+// }
 
+.content{
+  display: contents;
+}
