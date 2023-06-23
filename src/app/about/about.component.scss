@@ -17,6 +17,11 @@
       border-radius: 0.513rem;
       font-size: 24px;
 
+      h2{
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
       .about-image
       {
         
@@ -26,6 +31,7 @@
       {
         font-family: 'Open Sans';
         font-size: 16px;
+        text-align: center;
       }
       .no-dots
       {
@@ -47,4 +53,13 @@
     .about-container{
       grid-template-columns: 1fr;
     }
+  }
+
+  tr > td:first-child {
+    padding-right: 10px;
+  }
+  td {
+    padding-bottom: 30px;
+    font-family: "Open Sans";
+    font-size: 20px;
   }
