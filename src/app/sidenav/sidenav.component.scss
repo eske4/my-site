@@ -31,16 +31,23 @@
       border: none;
       display: grid;
       place-content: center;
-      &:hover{background: #016ec7;}
-      &:visited, &:active{
+
+      &:hover {
+        background: #016ec7;
+      }
+
+      &:visited,
+      &:active {
         background-color: #034d8a;
       }
+
       svg {
-        &:hover{
+        &:hover {
           fill: #000000;
         }
+
         height: 30px;
-      fill: #fff;
+        fill: #fff;
       }
     }
 
@@ -54,8 +61,11 @@
       .fa-times {
         color: #ffffff;
         font-size: 24px;
-        &:hover{color: #c70101;}
-        
+
+        &:hover {
+          color: #c70101;
+        }
+
       }
     }
   }
@@ -63,6 +73,7 @@
   &.sidenav-collapsed {
     width: 100%;
     border-radius: 0 0 0.613rem 0.613rem;
+
     .sidenav-nav {
 
       margin: 0 0.5em;
@@ -70,8 +81,10 @@
   }
 
   .sidenav-nav {
-    position: sticky; /* Add sticky positioning */
-    top: 0; /* Stick the navigation items at the top */
+    position: sticky;
+    /* Add sticky positioning */
+    top: 0;
+    /* Stick the navigation items at the top */
     list-style: none;
     width: inherit;
     display: flex;
@@ -92,32 +105,68 @@
       color: #fff;
       text-decoration: none;
       box-sizing: content-box;
-      &:visited{
+
+      &:visited {
         background-color: #034d8a;
       }
-      &:hover, &:active, &.is-active{
+
+      &:hover,
+      &:active,
+      &.is-active {
         background-color: #016ec7;
         color: #000;
       }
     }
-  
-        @media (max-width: 600px) {
-          .sidenav-link-text {
-            font-size: 14px; /* Adjust the value as needed */
-            margin: 0 0.3em;
-          }
-        }
 
-        @media (max-width: 300px) {
-          .sidenav-link-text {
-            font-size: 8px; /* Adjust the value as needed */
-            margin: 0 0.1em;
+    @media (max-width: 600px) {
+      .sidenav-link-text {
+        font-size: 14px;
+        /* Adjust the value as needed */
+        margin: 0 0.3em;
+      }
+
+      .sidenav-nav {
+        .sidenav-link-text {
+          &:visited {
+            background-color: #034d8a;
+          }
+
+          &:hover,
+          &:active,
+          &.is-active {
+            background-color: #034d8a;
+            color: #fff;
           }
         }
-        
       }
     }
 
-.content{
+    @media (max-width: 300px) {
+      .sidenav-link-text {
+        font-size: 8px;
+        /* Adjust the value as needed */
+        margin: 0 0.1em;
+      }
+
+      .sidenav-nav {
+        .sidenav-link-text {
+          &:visited {
+            background-color: #034d8a;
+          }
+
+          &:hover,
+          &:active,
+          &.is-active {
+            background-color: #034d8a;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.content {
   display: contents;
 }
