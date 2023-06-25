@@ -66,8 +66,34 @@
     font-family: "Open Sans";
     font-size: 20px;
   }
+  table {
+    place-self: center;
+    height: fit-content;
+  }
 
   :host{
     display: contents;
   }
   
+  .me{
+    display: grid;
+    width: 100%;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+
+    img{
+      border-radius: 69px;
+      width: 100%;
+      max-width: 300px;
+      place-self: center;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 1234px)
+  {
+    .me{
+      grid-template-columns: 1fr;
+    }
+  }

@@ -10,13 +10,14 @@
     background-color: hsl(221, 31%, 31%);
     border-radius: 9000px;
     display: grid;
+    padding: 100px 10px;
     place-content: center;
     &:first-of-type {
         background-color: transparent;
     }
     img {
         place-self: center;
-        border-radius: 69px;
+        border-radius: 100%;
         padding: 0 1rem;
         width: 100%;
     }
