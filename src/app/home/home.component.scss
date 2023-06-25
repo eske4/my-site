@@ -11,15 +11,20 @@
     border-radius: 9000px;
     display: grid;
     padding: 100px 10px;
-    place-content: center;
+    
     &:first-of-type {
         background-color: transparent;
+        padding: 0 10px;
+    }
+    &:nth-of-type(2) {
+        place-content: center;
     }
     img {
         place-self: center;
         border-radius: 100%;
         padding: 0 1rem;
         width: 100%;
+        align-self: center;
     }
     h1{
         color: #fff;
