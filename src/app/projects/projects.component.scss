@@ -46,8 +46,8 @@ a{
   color: #fff;
   border: 1px solid #fff;
   text-decoration: none;
-  padding: 0.2em 0em;
-  border-radius: 5px;
+  padding: 1em 0em;
+  border-radius: 69px;
 }
   @media screen and (max-width: 1993px) 
   {
@@ -86,3 +86,8 @@ a{
     }
     
   }
+
+  :host{
+    display: contents;
+  }
+  
