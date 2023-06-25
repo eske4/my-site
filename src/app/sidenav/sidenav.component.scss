@@ -36,6 +36,12 @@
         background: #016ec7;
       }
 
+      @media (max-width: 1024px) {
+        &:hover {
+          background: #034d8a;
+        }
+      }
+
       &:visited,
       &:active {
         background-color: #034d8a;
@@ -48,6 +54,18 @@
 
         height: 30px;
         fill: #fff;
+      }
+
+      @media (max-width: 1024px) {
+        svg {
+          &:hover
+          {
+          fill: #fff;
+          
+          }
+          fill: #fff;
+
+        }
       }
     }
 
@@ -124,21 +142,6 @@
         /* Adjust the value as needed */
         margin: 0 0.3em;
       }
-
-      .sidenav-nav {
-        .sidenav-link-text {
-          &:visited {
-            background-color: #034d8a;
-          }
-
-          &:hover,
-          &:active,
-          &.is-active {
-            background-color: #034d8a;
-            color: #fff;
-          }
-        }
-      }
     }
 
     @media (max-width: 300px) {
@@ -147,23 +150,7 @@
         /* Adjust the value as needed */
         margin: 0 0.1em;
       }
-
-      .sidenav-nav {
-        .sidenav-link-text {
-          &:visited {
-            background-color: #034d8a;
-          }
-
-          &:hover,
-          &:active,
-          &.is-active {
-            background-color: #034d8a;
-            color: #fff;
-          }
-        }
-      }
     }
-
   }
 }
 
