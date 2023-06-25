@@ -18,11 +18,11 @@
     }
     &:nth-of-type(2) {
         place-content: center;
+        height: auto;
     }
     img {
         place-self: center;
         border-radius: 100%;
-        padding: 0 1rem;
         width: 100%;
         align-self: center;
     }
@@ -56,7 +56,13 @@
     }
   }
 
-  :host{
+ 
+.adjust-sizing{
+    display: grid;
+    align-content: center;
+    flex: 1;
+}
+
+:host{
     display: contents;
   }
-  
