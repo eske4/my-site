@@ -10,6 +10,9 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { Project1Component } from './project1/project1.component';
+import { Project2Component } from './project2/project2.component';
+import { Project3Component } from './project3/project3.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     HomeComponent,
     AboutComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    Project1Component,
+    Project2Component,
+    Project3Component
   ],
   imports: [
     BrowserModule,
