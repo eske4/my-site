@@ -10,7 +10,6 @@
       background-color: hsl(221, 31%, 31%);
       font-family: 'Bubblegum Sans';
       display: grid;
-      grid-template-columns: auto 1fr;
       gap: 30px;
       padding: 1em 2em;
       flex-direction: column;
@@ -27,8 +26,10 @@
       }
 
       h2{
-        text-align: center;
+        justify-self: center;
+        font-family: 'Open Sans';
         margin-bottom: 20px;
+        font-size: 24px;
       }
   
       .projects-text {
