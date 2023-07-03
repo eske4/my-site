@@ -105,6 +105,10 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  background-color: #6495ed;
+}
+
 @media screen and (max-width: 1234px) {
   .me {
     grid-template-columns: 1fr;
