@@ -33,6 +33,7 @@
 
     p {
       font-family: 'Open Sans';
+      font-size: 16px;
     }
 
     .projects-text {
@@ -46,31 +47,33 @@
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Adjust the minmax value as per your preference */
+  gap: 10px;
   justify-content: center;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 25%;
-  flex: 1;
-  max-width: 100%;
-  padding: 0 4px;
+  justify-content: space-between;
 }
 
 .column img {
   margin-top: 8px;
   margin-right: 5px;
   vertical-align: middle;
-  object-fit: cover;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 500px;
 }
 
-img {
-  max-width: 100%;
-  max-height: 100%;
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  width: 100%;
 }
 
 .button-grid
@@ -94,10 +97,11 @@ a:hover{
   background-color: #6495ed;
 }
 
-
 :host {
   display: contents;
 }
+
+
 
 @media screen and (max-width: 979px) {
   .projects-container {
@@ -112,15 +116,19 @@ a:hover{
 }
 
 @media screen and (max-width: 1400px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
+  .row {
+    grid-template-columns: 1fr; /* Change to single column for smaller screens */
   }
 }
 
 @media screen and (max-width: 1850px) and (min-width: 1400px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr); /* Two columns per row */
+  }
+  
   .column {
     flex: 50%;
-    max-width: 50%;
+    max-width: 100%;
   }
+  
 }
