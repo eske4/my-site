@@ -48,24 +48,19 @@
 
 .row {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Adjust the minmax value as per your preference */
+  grid-template-columns: 1fr 1fr 1fr; /* Adjust the minimum and maximum width as needed */
   gap: 10px;
+  justify-items: center;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.column img {
-  margin-top: 8px;
-  margin-right: 5px;
-  vertical-align: middle;
-  object-fit: contain;
-  max-width: 100%;
+.row img {
+  width: 100%;
+  height: auto;
   max-height: 500px;
+  object-fit: contain;
 }
 
 
