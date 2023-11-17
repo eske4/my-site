@@ -37,22 +37,24 @@
         font-family: 'Open Sans';
       }
 
+      a{
+        text-align: center;
+        display: block;
+        color: #fff;
+        border: 1px solid #fff;
+        text-decoration: none;
+        padding: 1em 0em;
+        border-radius: 69px;
+      }
+      
+      a:hover{
+        background-color: #6495ed;
+      }
+
       
       }
     }
-a{
-  text-align: center;
-  display: block;
-  color: #fff;
-  border: 1px solid #fff;
-  text-decoration: none;
-  padding: 1em 0em;
-  border-radius: 69px;
-}
 
-a:hover{
-  background-color: #6495ed;
-}
 
   @media screen and (max-width: 1993px) 
   {
